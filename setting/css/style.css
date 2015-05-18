@@ -1,0 +1,158 @@
+.jimu-widget-draw-setting .btn-add-section {
+    display: inline-block;
+    height: 24px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    margin-left: 1px;
+    overflow: hidden;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+    color: #538ec8;
+}
+
+.jimu-widget-draw-setting .btn-add-section .btn-add-icon {
+    width: 14px;
+    height: 100%;
+
+    background-image: url(images/add.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.jimu-widget-draw-setting .btn-add-section .btn-add-label {
+    height: 100%;
+    margin-left: 7px;
+
+    line-height: 24px;
+
+    vertical-align: middle;
+    text-decoration: underline;
+}
+
+.jimu-rtl .jimu-widget-draw-setting .btn-add-section .btn-add-label {
+    margin-right: 7px;
+    margin-left: 0;
+}
+
+
+/*Shared Page*/
+.settings-heading {
+    margin-top: 15px;
+
+    font-size: 1.35em;
+}
+
+.settings-description {
+    margin-top: 15px;
+
+    font-size: 1.1em;
+}
+
+.settings-error {
+    font-size: 1.1em;
+
+    color: orange;
+}
+
+.hide {
+    display: none;
+}
+
+/*Layer Table*/
+.solutions-widget-SpiderDist-setting .setting-layer-table {
+    padding-right: 15px;
+    margin: 15px;
+}
+
+.solutions-widget-SpiderDist-setting .enrich {
+    width: 100px;
+}
+
+.solutions-widget-SpiderDist-setting .fieldselector {
+    width: 140px;
+}
+
+/*SymbolArea*/
+.solutions-widget-SpiderDist-setting .settings-symbol-area > tbody > tr > td {
+    font-size: 1em;
+
+    vertical-align: top;
+}
+
+.settings-symbol-area {
+    width: 100%;
+    margin: 5px 15px 15px 15px;
+    overflow: hidden;
+
+    vertical-align: top !important;
+}
+
+.symbolItemleft {
+    float: left;
+    width: 50%;
+
+    vertical-align: top;
+}
+/*Fields Table*/
+.solutions-widget-SpiderDist-setting .appended {
+    width: 100px;
+}
+
+/*Adv Settings*/
+.solutions-widget-SpiderDist-setting .setting-adv-table {
+    width: 95%;
+    margin-left: 15px;
+}
+
+.controlsMulti {
+    width: 100%;
+    height: 130px;
+
+    vertical-align: middle;
+}
+
+.controls {
+    width: 100%;
+
+    vertical-align: middle;
+}
+
+.solutions-widget-SpiderDist-setting .setting-adv-table > tbody > tr > td > span {
+    margin-left: 20px;
+}
+
+.solutions-widget-SpiderDist-setting .setting-adv-table > tbody > tr > td > input {
+    margin-left: 5px;
+}
+
+.solutions-widget-SpiderDist-setting .setting-adv-table > thead > tr > th,
+.solutions-widget-SpiderDist-setting .setting-adv-table > tbody > tr > td {
+    height: 40px;
+
+    font-size: 1em;
+    line-height: 40px;
+
+    vertical-align: middle;
+}
+
+.textArea {
+    float: right;
+    width: auto;
+    height: 100px;
+    min-height: 100px;
+
+    font-size: 1em;
+
+    resize: none;
+}
+
+.textBox {
+    float: right;
+    width: auto;
+    margin-left: 5px;
+
+    font-size: 1em;
+}
